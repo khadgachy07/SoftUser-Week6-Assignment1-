@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7BA9BD"
+    android:gravity="center"
+    tools:context="com.khadgachy.week6_assignment1.fragments.UploadFragment">
+
+    <TextView
+        android:text="Student Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/etName"
+        android:hint="Enter First Name"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/etAge"
+        android:hint="Enter Age Here"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp">
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:text="Male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:text="Female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <RadioButton
+            android:id="@+id/rbOthers"
+            android:text="Others"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etAdd"
+        android:hint="Enter Address"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:text="Submit"
+        android:backgroundTint="#3A709E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        />
+
+</LinearLayout>

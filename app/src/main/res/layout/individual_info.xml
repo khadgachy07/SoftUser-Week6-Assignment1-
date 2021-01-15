@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="#536DFE"
+        android:layout_margin="5dp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circularView"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/noimage"
+            />
+
+        <TextView
+            android:id="@+id/tvName"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/circularView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="24dp"
+            />
+
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:background="@drawable/ic_baseline_delete_forever_24"
+            android:textColor="@color/white"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/circularView"
+            />
+
+        <TextView
+            android:id="@+id/tvAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_toRightOf="@+id/circularView"
+            android:text="Age"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/tvGender"
+            android:text="Gender"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@+id/circularView"
+            />
+
+        <TextView
+            android:id="@+id/tvAddress"
+            android:text="Address"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@+id/circularView"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>
